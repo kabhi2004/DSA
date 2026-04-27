@@ -50,7 +50,9 @@ public class DisConnectBFS {
         boolean vis[]=new boolean[V];
         for(int i=0;i<V;i++)
         {
+           if(vis[i]==false){
            BFS(graph,vis,i);
+           }
         }
         
     }
