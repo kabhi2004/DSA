@@ -49,13 +49,14 @@ public class CycleDetectInDirected {
         boolean res[]=new boolean[V];
         boolean find=false;
         for(int i=0;i<V;i++){
-        find=DetectCycle(graph,i,vis,res);
-        if(find==true)
-        {
-            break;
-        }
-        }
-        System.out.println(find);
+            if(vis[i]==false){
+            find=DetectCycle(graph,i,vis,res);
+            if(find==true)
+            {
+                break;
+            }
+            }}
+            System.out.println(find);
         
     }
     
