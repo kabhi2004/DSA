@@ -1,0 +1,15 @@
+{
+  "editor.inlineSuggest.edits.allowCodeShifting": "never",
+  "editor.inlineSuggest.edits.renderSideBySide": "never",
+  "editor.inlineSuggest.enabled": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.suggest.showWords": false,
+  "editor.suggest.showVariables": false,
+  "editor.suggest.showValues": false,
+  "editor.suggest.showUnits": false,
+  "editor.suggest.showUsers": false,
+  "editor.suggest.showTypeParameters": false,
+  "editor.suggest.showStructs": false,
+  "editor.suggest.showSnippets": false
+}
